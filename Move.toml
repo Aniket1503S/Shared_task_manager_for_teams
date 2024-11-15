@@ -1,0 +1,15 @@
+[package]
+name = "Shared_task_manager_for_teams"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyModule = '0xc1ef886e898ad70aea150d7967a4f9b1247c71503856d21fb1b7820859ad22dc'
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+[dev-dependencies]
